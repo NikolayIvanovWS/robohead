@@ -1,4 +1,4 @@
-low_voltage_threshold: 3.0
+low_voltage_threshold: 3.3
 low_voltage_hysteresis: 0.2
 
 camera_topic_name: "~usb_cam/image_raw"
@@ -13,4 +13,9 @@ robohead_controller_actions_match: { # сопоставление головов
   "сделай фото": "robohead_controller_actions.std_make_photo.action",
   "поздоровайся": "robohead_controller_actions.std_greeting.action",
   "следи за шариком": "robohead_controller_actions.std_ball_tracker.action",
+  "езжай вперед": "robohead_controller_actions.std_move_forward.action",
+  "езжай назад": "robohead_controller_actions.std_move_backward.action",
+  "осмотрись": "robohead_controller_actions.std_look_around.action",
+  "хочу вкусняшку": "robohead_controller_actions.std_echpochmak.action",
+  "покажи рандомные числа": "robohead_controller_actions.std_random_number.action",
 }

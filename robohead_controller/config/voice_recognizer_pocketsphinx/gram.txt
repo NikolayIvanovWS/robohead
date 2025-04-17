@@ -4,9 +4,10 @@ grammar robohead_cmds;
 
 public <commands> = <command> ;
 
-<command> = <command_1> | <command_2> | <command_3> | <command_4>;
-
-<command_1> = покажи ( уши | левое ухо | правое ухо ) ;
+<command> = <command_1> | <command_2> | <command_3> | <command_4> | <command_5> | <command_6>;
+<command_1> = покажи ( уши | левое ухо | правое ухо | рандомные числа ) ;
 <command_2> = поздоровайся ;
-<command_3> = сделай фото ;
-<command_4> = следи за шариком ;
+<command_3> = езжай в ( кухню | зал | кабинет | спальню) ;
+<command_4> = осмотрись ;
+<command_5> = хочу вкусняшку ;
+<command_6> = напомни ( выключитьробота | проверитьбатарею | закрытьдверь | анекдот ) ;
