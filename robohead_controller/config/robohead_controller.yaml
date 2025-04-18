@@ -18,4 +18,5 @@ robohead_controller_actions_match: { # сопоставление головов
   "осмотрись": "robohead_controller_actions.std_look_around.action",
   "хочу вкусняшку": "robohead_controller_actions.std_echpochmak.action",
   "покажи рандомные числа": "robohead_controller_actions.std_random_number.action",
+  "заверши работу": "robohead_controller_actions.std_shutdown_voice_nav.action",
 }
