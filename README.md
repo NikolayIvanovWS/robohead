@@ -42,7 +42,7 @@
 ## Конвертация файл-словаря в фонетический словарь для новой голосовой команды
 
 ```
-cd robohead_ws/src/robohead/voice_recognizer_pocketsphinx/config/ru4sphinx/text2dict/
+cd ~/robohead_ws/src/robohead/voice_recognizer_pocketsphinx/config/ru4sphinx/text2dict/
 
 ./dict2transcript.pl /home/pi/robohead_ws/src/robohead/robohead_controller/config/voice_recognizer_pocketsphinx/dictionary.txt /home/pi/robohead_ws/src/robohead/robohead_controller/config/voice_recognizer_pocketsphinx/dictionary.dict
 ```
