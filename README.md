@@ -42,7 +42,7 @@
 ## Конвертация файл-словаря в фонетический словарь для новой голосовой команды
 
 ```
-cd ~/robohead_ws/src/robohead/voice_recognizer_pocketsphinx/config/ru4sphinx/text2dict/
+cd ~/robohead_ws/src/ru4sphinx/text2dict/
 
 ./dict2transcript.pl /home/pi/robohead_ws/src/robohead/robohead_controller/config/voice_recognizer_pocketsphinx/dictionary.txt /home/pi/robohead_ws/src/robohead/robohead_controller/config/voice_recognizer_pocketsphinx/dictionary.dict
 ```
@@ -94,7 +94,7 @@ sudo systemctl start robohead.service
 
 ```bash
 cd ~/robohead_ws/src
-git clone https://github.com/NikolayIvanovWS/robohead.git
+git clone https://github.com/voltbro/robohead.git
 cd ..
 catkin_make
 ```
@@ -107,7 +107,7 @@ catkin_make
 cd ~/robohead_ws/src/robohead/voice_recognizer_pocketsphinx/config
 ```
 
-#### 2.1 Скачание языковой модели
+#### 2.1 Скачивание языковой модели
 
 > [!NOTE]
 > Иногда быстрее бывает скачать файл по ссылке на ноутбук и перекинуть через FileZilla на робо-голову.
